@@ -1,3 +1,5 @@
+%Both the functions are good to go
+
 %function [s1 s2 sums] = sines(pts,amp,n1,n2)
 %if nargin
 %if nargin

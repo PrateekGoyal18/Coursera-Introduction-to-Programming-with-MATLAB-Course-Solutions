@@ -1,3 +1,5 @@
+% Both the functions are good to go
+
 %function [yout] = square_wave(n) 
 %syms n; 
 %f = n^4; 
