@@ -1,0 +1,2013 @@
+<!DOCTYPE html>
+<!-- saved from url=(0154)http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg -->
+<html class="js wf-futurapt-n4-active wf-futurapt-n5-active wf-museoslab-n7-active wf-futurapt-i4-active wf-futurapt-i5-active wf-futurapt-n7-active wf-futurapt-i7-active wf-automate-n7-active wf-minionprosubhead-n4-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>how to remove that element from cell vector which is identical to given argument or contains the argument as a substring.  An... - 
+MATLAB Answers - MATLAB Central</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- BEGIN Adobe DTM -->
+<script type="text/javascript" async="" src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/ahy.js"></script><script type="text/javascript" async="" src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/elqCfg.min.js"></script><script src="http://edge.quantserve.com/aquant.js?a=p-zfNtLVVEHXE-1" async="" type="text/javascript"></script><script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/satelliteLib-e8d23c2e444abadc572df06537e2def59c01db09.js"></script><script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/mbox-contents-95c6a4d9c82a8d20476522984666120b54192e9b.js"></script><style>.mboxDefault { visibility:hidden; }</style>
+<!-- END Adobe DTM -->
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/site6.css" rel="stylesheet" type="text/css">
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/site6_lg.css" rel="stylesheet" media="screen and (min-width: 1200px)">
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/site6_md.css" rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199px)">
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/site6_sm+xs.css" rel="stylesheet" media="screen and (max-width: 991px)">
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/site6_sm.css" rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)">
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/site6_xs.css" rel="stylesheet" media="screen and (max-width: 767px)">
+<!--[if IE 8]>
+<link href="/includes_content/responsive/css/site6_ie8.css" rel="stylesheet" type="text/css">
+<script src="/includes_content/responsive/scripts/bootstrap/html5shiv-printshiv.js"></script>
+<script src="/includes_content/responsive/scripts/bootstrap/respond.min.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<link href="/includes_content/responsive/css/site6_ie9.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/site6_print.css" rel="stylesheet" type="text/css" media="print">
+<link rel="stylesheet" href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/mlc.css" type="text/css">
+<!--[if IE 8]>
+<link href="/includes_content/responsive/css/templates/mlc_ie8.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 9]>
+<link href="/includes_content/responsive/css/templates/mlc_ie9.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<link rel="stylesheet" href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/answers.css">
+<!--[if IE 8]>
+<link href="/includes_content/responsive/css/apps/answers/answers_ie8.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 9]>
+<link href="/includes_content/responsive/css/apps/answers/answers_ie9.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<!-- Begin Eloqua 1st Party Cookie Tracking Script-->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '646005169']);
+_elqQ.push(['elqTrackPageView']);
+_elqQ.push(['elqUseFirstPartyCookie', 'tracking.mathworks.com']);
+(function () {
+function async_load() {
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.async = true; s.src = '//img.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+</script>
+<!--End Eloqua 1st Party Cookie Tracking Script-->
+<script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/jquery-latest.js"></script>
+<script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/jquery.mobile.custom.min.js"></script>
+<script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/bootstrap.min.js"></script>
+<script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/global.js"></script>
+<script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/anchor.js"></script>
+<script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/xvy5baa.js"></script>
+<style type="text/css">.tk-museo-slab{font-family:"museo-slab",serif;}.tk-futura-pt{font-family:"futura-pt","Arial","Helvetica",sans-serif;}.tk-automate{font-family:"automate",sans-serif;}.tk-minion-pro-subhead{font-family:"minion-pro-subhead",serif;}</style><link rel="stylesheet" href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/xvy5baa-d.css"><script>try{Typekit.load();}catch(e){}</script>
+<meta name="description" content="MathWorks is hiring worldwide. Search now for MATLAB jobs and Simulink jobs.">
+<meta content="You may have unsaved changes to a question, answer, or comment." name="confirm-close">
+<meta content="authenticity_token" name="csrf-param">
+<meta content="svrFBjdGYU3NvroIPv8hUBFltBHNe5UduHJUU4b49jU=" name="csrf-token">
+<link rel="canonical" href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central.html">
+
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/application.css" media="screen" rel="stylesheet" type="text/css">
+
+
+<script type="text/javascript">
+  // CSS hook -- add class="js" to the <html> element
+  document.documentElement.className = document.documentElement.className === '' ? 'js' : document.documentElement.className + ' js';
+</script>
+<script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/application.js" type="text/javascript"></script>
+  <script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/antlr3-all.min.js" type="text/javascript"></script>
+  <script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/jquery.iframe-transport.js" type="text/javascript"></script>
+  <script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/jquery.fileupload.js" type="text/javascript"></script>
+  <script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/jquery.placeholder.js" type="text/javascript"></script>
+  <script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/matlabmarkup.combined.js" type="text/javascript"></script>
+
+
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/application(1).css" media="all" rel="stylesheet" type="text/css">
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/mw_font.css" media="all" rel="stylesheet" type="text/css">
+<script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/application(2).js" type="text/javascript"></script>
+<link href="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/mlc6.css" rel="stylesheet" type="text/css">
+
+
+
+<script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/s-code-contents-73da148cb454c4f6e395aa8df704854c99540662.js"></script><style type="text/css" id="ki-b8q-b_"></style><style type="text/css" id="ki-b8q-b1"></style></head>
+  
+<body id="responsive_b" class="mlc">
+
+  <!-- Mobile TopNav: Start -->
+<div class="header visible-xs visible-sm" id="header_mobile">
+<nav class="navbar navbar-default" role="navigation">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle topnav_toggle" data-toggle="collapse" data-target="#topnav_collapse">
+<span class="sr-only">Toggle Main Navigation</span>
+<span class="icon-menu"></span>
+</button>
+<a href="http://www.mathworks.com/matlabcentral/?s_tid=gn_mlc_logo" class="svg_link navbar-brand">
+<object data="http://www.mathworks.com/images/responsive/global/pic-header-matlabcentral-logo.svg" alt="MATLAB Central" class="mlc_logo" type="image/svg+xml">
+<img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/pic-header-matlabcentral-logo.png" class="mlc_logo" alt="MATLAB Central">
+</object>
+</a>
+</div>
+</div>
+</div>
+<div class="row visible-xs visible-sm">
+<div class="col-xs-12">
+<div class="navbar-collapse collapse" id="topnav_collapse">
+<ul class="nav navbar-nav" id="topnav">
+<li class="headernav_login ">
+    <a href="https://www.mathworks.com/accesslogin/login.do?uri=http%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg">Log In</a>
+</li>
+
+<li class="topnav_fileexchange "><a href="http://www.mathworks.com/matlabcentral/fileexchange/?s_tid=gn_mlc_fx">File Exchange</a></li>
+<li class="topnav_answers "><a href="http://www.mathworks.com/matlabcentral/answers/index/?s_tid=gn_mlc_an">Answers</a></li>
+<li class="topnav_newsreader "><a href="http://www.mathworks.com/matlabcentral/newsreader/?s_tid=gn_mlc_ng">Newsgroup</a></li>
+<li class="topnav_linkexchange "><a href="http://www.mathworks.com/matlabcentral/linkexchange/?s_tid=gn_mlc_lx">Link Exchange</a></li>
+<li class="topnav_blogs"><a href="http://blogs.mathworks.com/?s_tid=gn_mlc_blg">Blogs</a></li>
+<li class="topnav_trendy "><a href="http://www.mathworks.com/matlabcentral/trendy/?s_tid=gn_mlc_tnd">Trendy</a></li>
+<li class="topnav_cody "><a href="http://www.mathworks.com/matlabcentral/cody/?s_tid=gn_mlc_cody">Cody</a></li>
+<li class="topnav_homepage"><a href="http://www.mathworks.com/?s_tid=gn_mlc_main">MathWorks.com</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+<!-- Mobile TopNav: End -->
+<!-- Desktop TopNav: Start -->
+<div class="header hidden-xs hidden-sm" id="header_desktop">
+<nav class="navbar navbar-default" role="navigation">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="collapse navbar-collapse" id="headernav_collapse">
+<ul class="nav navbar-nav navbar-right" id="headernav">
+<li class="headernav_login ">
+    <a href="https://www.mathworks.com/accesslogin/login.do?uri=http%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg">Log In</a>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="navbar-header">
+<div class="logo_container hidden-xs hidden-sm">
+<a href="http://www.mathworks.com/matlabcentral/?s_tid=gn_mlc_logo" class="svg_link pull-left">
+<object data="http://www.mathworks.com/images/responsive/global/pic-header-matlabcentral-logo.svg" alt="MATLAB Central" class="mlc_logo" type="image/svg+xml">
+<img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/pic-header-matlabcentral-logo.png" class="mlc_logo" alt="MATLAB Central">
+</object>
+</a>
+</div>
+<div class="navbar-collapse collapse hidden-xs hidden-sm">
+<ul class="nav navbar-nav" id="topnav">
+<li class="topnav_fileexchange "><a href="http://www.mathworks.com/matlabcentral/fileexchange/?s_tid=gn_mlc_fx">File Exchange</a></li>
+<li class="topnav_answers "><a href="http://www.mathworks.com/matlabcentral/answers/index/?s_tid=gn_mlc_an">Answers</a></li>
+<li class="topnav_newsreader "><a href="http://www.mathworks.com/matlabcentral/newsreader/?s_tid=gn_mlc_ng">Newsgroup</a></li>
+<li class="topnav_linkexchange "><a href="http://www.mathworks.com/matlabcentral/linkexchange/?s_tid=gn_mlc_lx">Link Exchange</a></li>
+<li class="topnav_blogs"><a href="http://blogs.mathworks.com/?s_tid=gn_mlc_blg">Blogs</a></li>
+<li class="topnav_trendy "><a href="http://www.mathworks.com/matlabcentral/trendy/?s_tid=gn_mlc_tnd">Trendy</a></li>
+<li class="topnav_cody "><a href="http://www.mathworks.com/matlabcentral/cody/?s_tid=gn_mlc_cody">Cody</a></li>
+<li class="topnav_homepage"><a href="http://www.mathworks.com/?s_tid=gn_mlc_main">MathWorks.com</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+<!-- Desktop TopNav: End -->
+<!-- Conjoined Header: Start -->
+<div class="sticky_header_container includes_subnav affix-top">
+<!-- Section Header: Start -->
+<div class="section_header level_3">
+<div class="container">
+<div class="row" id="mobile_search_row">
+<div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-5 col-md-push-7" id="mobile_search">
+<div class="search_nested_content_container">
+<script language="JavaScript1.3" type="text/javascript">
+function submitForm(query){
+choice = $('.search_scope_label').text();
+var submit_action;
+if (choice == "MathWorks" || choice == "MATLAB Central" || choice == "Blogs"){
+$('#mlcsearch').attr('name', 'q')
+submit_action = '/search/site_search.html';
+}
+switch(choice){
+case "MATLAB Central":
+var newElem = document.createElement("input");
+newElem.type = "hidden";
+newElem.name = "c[]";
+newElem.value = "matlabcentral";
+document.forms['searchForm'].appendChild(newElem);
+break
+case "File Exchange":
+$('#mlcsearch').attr('name', 'term')
+submit_action = "/matlabcentral/fileexchange/";
+break
+case "Answers":
+$('#mlcsearch').attr('name', 'term')
+submit_action = "/matlabcentral/answers/";
+break
+case "Newsgroup":
+$('#mlcsearch').attr('name', 'search_string')
+submit_action = "/matlabcentral/newsreader/search_results";
+break
+case "Link Exchange":
+$('#mlcsearch').attr('name', 'term')
+submit_action = "/matlabcentral/linkexchange/";
+break
+case "Blogs":
+var newElem = document.createElement("input");
+newElem.type = "hidden";
+newElem.name = "c[]";
+newElem.value = "blogs_en";
+document.forms['searchForm'].appendChild(newElem);
+break
+case "Trendy":
+$('#mlcsearch').attr('name', 'search')
+submit_action = "/matlabcentral/trendy";
+break
+case "Cody":
+$('#mlcsearch').attr('name', 'term')
+submit_action = "/matlabcentral/cody/";
+break
+case "MathWorks":
+var newElem = document.createElement("input");
+newElem.type = "hidden";
+newElem.name = "c[]";
+newElem.value = "entire_site_en";
+document.forms['searchForm'].appendChild(newElem);
+break
+default:
+var newElem = document.createElement("input");
+newElem.type = "hidden";
+newElem.name = "c[]";
+newElem.value = "entire_site_en";
+document.forms['searchForm'].appendChild(newElem);
+break
+}
+document.forms['searchForm'].action = submit_action;
+}
+</script>
+<form id="mlcsearch_form" name="searchForm" method="get" data-release="R2015a" data-language="en" action="" onsubmit="submitForm(term);">
+<div class="input-group tokenized_search_field">
+<label class="sr-only">Search Answers</label>
+<input class="form-control conjoined_search" autocomplete="off" name="term" placeholder="Search Answers" id="mlcsearch" type="text" value="">
+<div class="input-group-btn">
+<button type="button" class="btn btn_search_adjacent dropdown-toggle" data-toggle="dropdown" tabindex="-1"><span class="caret"></span><span class="search_scope_label">Answers</span></button>
+<ul class="dropdown-menu list-unstyled dropdown-menu-right" role="menu">
+<li data-toggle="collapse" class="mlc_search_scope_trigger"><a>MATLAB Central</a></li>
+<li data-toggle="collapse" class="mlc_search_scope_trigger"><a>File Exchange</a></li>
+<li data-toggle="collapse" class="mlc_search_scope_trigger"><a>Answers</a></li>
+<li data-toggle="collapse" class="mlc_search_scope_trigger"><a>Newsgroup</a></li>
+<li data-toggle="collapse" class="mlc_search_scope_trigger"><a>Link Exchange</a></li>
+<li data-toggle="collapse" class="mlc_search_scope_trigger"><a>Blogs</a></li>
+<li data-toggle="collapse" class="mlc_search_scope_trigger"><a>Trendy</a></li>
+<li data-toggle="collapse" class="mlc_search_scope_trigger"><a>Cody</a></li>
+<li data-toggle="collapse" class="mlc_search_scope_trigger"><a>MathWorks</a></li>
+</ul>
+<script>
+$(".mlc_search_scope_trigger").click(function(e) {
+$('.search_scope_label').text($(e.target).text());
+$('#mlcsearch').attr('placeholder', 'Search ' + $(e.target).text());
+});
+</script>
+<button type="submit" id="submitsearch" class="btn icon-search btn_search_adjacent btn_search icon_16" tabindex="-1"></button>
+</div>
+</div>
+</form>
+</div>
+<button class="btn icon-remove btn_search pull-right icon_32 visible-xs" data-toggle="collapse" href="#mobile_search" aria-expanded="false" aria-controls="mobile_search"></button>
+</div>
+<div class="col-sm-6 col-sm-pull-6 col-md-7 col-md-pull-5" id="section_header_title">
+<div class="section_header_content">
+<div class="section_header_title add_cursor_pointer">
+<p class="h1">MATLAB Answers<sup>™</sup></p>
+</div>
+<button type="button" class="navbar-toggle collapsed subnav visible-xs visible-sm" data-toggle="collapse" data-target=".mobile_subnav_content"> <span class="icon-arrow-down icon_24"></span> </button>
+</div>
+</div>
+<div class="visible-xs" id="search_actuator">
+<button class="btn icon-search btn_search pull-right icon_16" data-toggle="collapse" href="#mobile_search" aria-expanded="false" aria-controls="mobile_search"></button>
+</div>
+</div>
+<script>
+$(".section_header_title").click(function(){
+$(window.location).attr('href', '/matlabcentral/answers/index');
+});
+</script>
+<!-- Section Header: End -->
+<!-- Mobile Local Nav: Start -->
+<div class="row visible-xs visible-sm" id="mobile_subnav">
+<div class="col-xs-12">
+<div class="navbar-collapse collapse mobile_subnav_content">
+<ul class="nav navbar-nav subnav">
+<li><a href="http://www.mathworks.com/matlabcentral/answers/index?s_tid=al" id="landing_link">Home</a></li>
+	<li class="logincta">
+</li><li class="maincta"><a href="http://www.mathworks.com/matlabcentral/answers/questions/new/?s_tid=gn_mlc_ans_ask" id="ask_question_link" rel="nofollow">Ask a Question</a></li>
+<li><a href="http://www.mathworks.com/matlabcentral/answers/?term=status%3Aunanswered&s_tid=gn_mlc_ans_ans" rel="nofollow" id="answer_question_link">Answer a Question</a></li>
+<li><a href="http://www.mathworks.com/matlabcentral/answers/contributors/?s_tid=gn_mlc_ans_cnt" id="contributors_link">Contributors</a></li>
+<li>
+	<a href="" data-toggle="dropdown" data-target="#" id="more_link">More<span class="caret"></span></a>
+	<ul class="dropdown-menu">
+		<li><a href="http://www.mathworks.com/matlabcentral/answers/activities?s_tid=gn_mlc_ans_rec" id="activity_link" rel="nofollow">Recent Activity</a></li>
+		<li><a href="http://www.mathworks.com/matlabcentral/answers/flagged?s_tid=gn_mlc_ans_FC" id="flags_link" rel="nofollow">Flagged Content</a></li>
+		<li><a href="http://www.mathworks.com/matlabcentral/answers/manage-spam" id="spam_link" rel="nofollow">Flagged Spam</a></li>
+	</ul>
+</li>
+<li class="about">
+	<a href="http://www.mathworks.com/matlabcentral/answers/help?s_tid=gn_mlc_ans_hlp" rel="nofollow" id="help_link">Help</a>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+<!-- Mobile Local Nav: End -->
+</div>
+</div>
+<!-- Horo Nav: Start -->
+<div class="horizontal_nav hidden-xs hidden-sm">
+<div class="horizontal_nav_container">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-lg-9 hidden-xs hidden-sm">
+<nav class="navbar navbar-default" role="navigation" id="subnav">
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href="http://www.mathworks.com/matlabcentral/answers/index?s_tid=al" id="landing_link">Home</a></li>
+	<li class="logincta">
+</li><li class="maincta"><a href="http://www.mathworks.com/matlabcentral/answers/questions/new/?s_tid=gn_mlc_ans_ask" id="ask_question_link" rel="nofollow">Ask a Question</a></li>
+<li><a href="http://www.mathworks.com/matlabcentral/answers/?term=status%3Aunanswered&s_tid=gn_mlc_ans_ans" rel="nofollow" id="answer_question_link">Answer a Question</a></li>
+<li><a href="http://www.mathworks.com/matlabcentral/answers/contributors/?s_tid=gn_mlc_ans_cnt" id="contributors_link">Contributors</a></li>
+<li>
+	<a href="" data-toggle="dropdown" data-target="#" id="more_link">More<span class="caret"></span></a>
+	<ul class="dropdown-menu">
+		<li><a href="http://www.mathworks.com/matlabcentral/answers/activities?s_tid=gn_mlc_ans_rec" id="activity_link" rel="nofollow">Recent Activity</a></li>
+		<li><a href="http://www.mathworks.com/matlabcentral/answers/flagged?s_tid=gn_mlc_ans_FC" id="flags_link" rel="nofollow">Flagged Content</a></li>
+		<li><a href="http://www.mathworks.com/matlabcentral/answers/manage-spam" id="spam_link" rel="nofollow">Flagged Spam</a></li>
+	</ul>
+</li>
+<li class="about">
+	<a href="http://www.mathworks.com/matlabcentral/answers/help?s_tid=gn_mlc_ans_hlp" rel="nofollow" id="help_link">Help</a>
+</li>
+
+</ul>
+</div>
+</nav>
+</div>
+<div class="col-md-4 col-lg-3 hidden-xs hidden-sm">
+<div class="cta_box">
+<ul class="list-inline">
+<li class="cta_item cta_item_general"><a href="http://www.mathworks.com/programs/trials/trial_request.html?eventid=56763&prodcode=ML&s_iid=mlclx_trial_mlc_cta1" class="icon-download">Trial software</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Horo Nav: End -->
+</div>
+<!-- Conjoined Header: End -->
+    
+
+    
+
+  <div class="content_container">
+    <div class="container">        
+      <div class="row">
+        <div class="col-xs-12">
+          
+
+
+
+
+
+
+
+     
+    
+		
+	
+
+		
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12 col-sm-9">
+		<div class="panel panel-default panel_color_default panel_color_fill">
+		 	<div class="panel-body">
+        <div class="row small">
+					<div class="col-xs-12 col-sm-12 col-md-2">
+							<div class="col-xs-4 col-sm-4 col-md-12">
+								<a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo" class="author_inline" data-cp-link-id="1"><img alt="Darshan Kanungo" class="avatar-img" src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default.gif"></a>
+<div class="profile mlc_author_popover" data-cp-popup-id="1" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo">Darshan Kanungo <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A139496"><span property="question_count">6 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A139496"><span property="answer_count">0 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">0 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 0</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 tools-no-paddings">
+								<div class="question-tools">
+									<div id="votes_question_221886" class="vote">
+										<form accept-charset="UTF-8" action="http://www.mathworks.com/matlabcentral/answers/votes" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="svrFBjdGYU3NvroIPv8hUBFltBHNe5UduHJUU4b49jU="></div>
+											<input name="vote[votable_type]" type="hidden" value="Question"><input name="vote[votable_id]" type="hidden" value="221886">
+											<button class="login btn btn-link" data-disable-with="Saving…" disabled="disabled" title="Log in to vote for questions and answers" type="submit">0 votes</button>
+</form>									</div>
+
+									
+
+
+
+
+									</div>
+							 	</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-10">
+								<div class="question" id="question_221886">
+								<div class="row">
+									<div class="col-sm-11 col-xs-11 col-md-11">
+										<h2 class="add_font_color_emphasize" id="title_question_221886">how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. And return cell vector without that argument.</h2>
+									</div>
+								</div>
+										<div id="asked_question_221886" class="contribution">
+                      Asked by <a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo" class="author_inline" data-cp-link-id="2">Darshan Kanungo</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="2" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo">Darshan Kanungo <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A139496"><span property="question_count">6 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A139496"><span property="answer_count">0 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">0 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 0</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="question-ask-date">on 1 Jun 2015</span>
+                    </div>
+
+                    <div class="contribution latest-activity">
+  <strong>Latest activity</strong> Edited by <a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb" class="author_inline" data-cp-link-id="3">dpb</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="3" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb">dpb <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A83899"><span property="question_count">17 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A83899"><span property="answer_count">1,659 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">681 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 4,190</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> on 4 Jun 2015
+</div>
+
+
+                    
+
+                    
+
+
+                    <div id="body_question_221886" class="panel panel-default">
+											<div class="panel-body">
+
+                          <p>i use this....but it doesn't work</p><pre class="language-matlab">function y = censor(str,c1)
+</pre><pre class="language-matlab">origStr = str;
+oldSubstr = c1;
+newSubstr = '';
+y = strrep(origStr, oldSubstr, newSubstr)
+</pre><p>Your function made an error for argument(s)</p><p>{ 'Oh, say can you see by the dawn''s early light', 'What so proudly we hailed at the twilight''s last gleaming?', 'Whose broad stripes and bright stars thru the perilous fight,', 'O''er the ramparts we watched were so gallantly streaming?', 'And the rocket''s red glare, the bombs bursting in air,', 'Gave proof through the night that our flag was still there.', 'Oh, say does that star-spangled banner yet wave', 'O''er the land of the free and the home of the brave?' }, 'the'</p><pre>      Your solution is _not_ correct.</pre>
+											</div>
+                    </div>
+
+
+                    
+
+                    <div class="panel panel-default panel_icon_16 comments" id="comments_question_221886" data-state="closed">
+	<div class="panel-body">
+		<h4><span class="icon-feedback icon_16"></span>&nbsp;&nbsp;6 Comments</h4>
+
+
+		<div class="toggle-comments"><span>Show</span> <a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#toggle-comments" class="hidden-comments-count">3 older comments</a></div>
+			<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12 hidden" id="comment_289352">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb" class="author_inline" data-cp-link-id="4">dpb</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="4" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb">dpb <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A83899"><span property="question_count">17 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A83899"><span property="answer_count">1,659 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">681 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 4,190</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 1 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_289352" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_289352" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_289352">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_289352">http://www.mathworks.com/matlabcentral/answers/221886#comment_289352</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_289352" class="panel panel-default">
+		<div class="panel-body">
+			<p>For what definition of "doesn't work?"  Looks like an automated homework grader output; perhaps the requirement was that only complete words should be removed, not substrings.  (HINT:  What happens to the word "there" in your solution and what _should) happen by the assignment definition?)</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+			<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12 hidden" id="comment_289476">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo" class="author_inline" data-cp-link-id="5">Darshan Kanungo</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="5" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo">Darshan Kanungo <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A139496"><span property="question_count">6 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A139496"><span property="answer_count">0 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">0 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 0</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 2 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_289476" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_289476" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_289476">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_289476">http://www.mathworks.com/matlabcentral/answers/221886#comment_289476</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_289476" class="panel panel-default">
+		<div class="panel-body">
+			<p>this is my question...</p><p>Write a function called censor whose first input argument is a cell vector (row or column) of strings and whose second input argument is a string. It removes each element of the cell vector whose string is either identical to the second input argument or contains the second argument as a substring. The resulting cell vector is returned as the only output argument. For example, suppose each element of the first argument refers to one line of the first verse of the US national anthem and the second argument is 'the'. Then the function would return a cell vector with a single element containing the string: 'Oh, say does that star-spangled banner yet wave'.</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+			<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12 hidden" id="comment_289586">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb" class="author_inline" data-cp-link-id="6">dpb</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="6" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb">dpb <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A83899"><span property="question_count">17 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A83899"><span property="answer_count">1,659 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">681 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 4,190</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 2 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_289586" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_289586" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_289586">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_289586">http://www.mathworks.com/matlabcentral/answers/221886#comment_289586</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_289586" class="panel panel-default">
+		<div class="panel-body">
+			<p>Ah...that's a different design requirement altogether than what your code is trying to solve for...</p><p>You don't need a substitution for the matched string here, you need a location logical vector that tells you which cell in the input cell array does or, perhaps more directly, does <i>not</i> contain the magic word so you can return that list and thence the cells of that list.</p><p>HINT:</p><pre class="language-matlab">doc cellfun
+doc isempty
+doc strfind
+</pre><p>can be combined in a one-liner to solve the problem as given.</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+
+		<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12" id="comment_289636">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb" class="author_inline" data-cp-link-id="7">dpb</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="7" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb">dpb <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A83899"><span property="question_count">17 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A83899"><span property="answer_count">1,659 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">681 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 4,190</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 3 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_289636" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_289636" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_289636">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_289636">http://www.mathworks.com/matlabcentral/answers/221886#comment_289636</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_289636" class="panel panel-default">
+		<div class="panel-body">
+			<p><b>ADDENDUM</b>  If <b>cellfun</b> is more advanced than you've progressed so far, then you can replace it with a loop around the result of the other two on the inputs.</p><p>As a hint on learning to develop in Matlab while still new, use</p><pre class="language-matlab">help
+</pre><p>to see a list of the various areas; in this case the interesting functions are likely first of all under</p><pre class="language-matlab">help strfun
+</pre><p>Look at those quick descriptions and see which tend to return what you need here and then experiment some at the keyboard in the command window on the various results of the likely candidates for your or some sample data to see specifically what the various alternatives return as results.  After that exercise, it should then become apparent how to use the remaining hints above...</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+		<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12" id="comment_289957">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem" class="author_inline" data-cp-link-id="8">Muhammad Usman  Saleem</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="8" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem">Muhammad Usman  Saleem <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/6394611.jpg">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A137727"><span property="question_count">31 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A137727"><span property="answer_count">19 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">2 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 7</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 4 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_289957" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_289957" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_289957">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_289957">http://www.mathworks.com/matlabcentral/answers/221886#comment_289957</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_289957" class="panel panel-default">
+		<div class="panel-body">
+			<p>@dpb are you talking about that:</p><pre class="language-matlab">function  mystr=censor(vec,str)
+mystr= cellfun(strfind,vec,str);
+end
+</pre><p>again error is same?</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+		<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12" id="comment_290039">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb" class="author_inline" data-cp-link-id="9">dpb</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="9" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb">dpb <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/28872-dpb">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A83899"><span property="question_count">17 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A83899"><span property="answer_count">1,659 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">681 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 4,190</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 4 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_290039" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_290039" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_290039">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_290039">http://www.mathworks.com/matlabcentral/answers/221886#comment_290039</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_290039" class="panel panel-default">
+		<div class="panel-body">
+			<p>Well, not quite, no...but it's a start towards the answer, yes.</p><p>You've got a couple of problems here yet; all of which can be resolved with a combination of using the documentation and the suggested technique of working interactively to understand what the result of each step is in sequence, precisely.</p><p>I'd note that Guilliame made a comment in the other thread re: <b>cellfun</b> that mirrors mine above; you'll have to decide whether this gives away to the instructor you didn't come up with this solution on your own or not, but as he (and the doc) say, the syntax isn't correct as it needs a function handle as the first argument, but...</p><p>If you had tried, you'd have already discovered that you don't need <b>cellfun</b> <i>yet</i>; <b>strfind</b> works with the cell input and string as given in the assignment; first see how that works and then attack the rest of the problem getting that form of the information about the pattern to what is required.  Again note, I listed another function in there that should become apparent as to why...</p><p><b>ADDENDUM</b>  Again, keep your eye on the goal first and work logically towards accomplishing that objective in a planned sequence of steps that mimic what you would do to solve the problem if were to do it with pencil and paper.  Refer again to my first note--the idea is to find the lines (given as array of cellstrings per problem description) which contain the magic word.  Having those, those are the cells that are <i>not</i> to be returned; conversely one can isolate the obverse indicator--namely, those cells which do <i>not</i> contain the target string; in that case those are the cells which are to be returned.</p><p>As suggested, if you use the suggested search at the command line to see how Matlab deals with the two cases of found/not found, that should lead you to the next step which then leads to the last.  And, at that point, voila!--you're done.</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+
+	</div>
+</div>
+
+
+</div>                </div>
+					</div>
+        </div>
+    </div>
+
+
+<div class="row small">
+	<div class="col-xs-12 col-md-6">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>
+						Tags
+					</h2>
+				</div>
+				<div class="col-sm-6">
+				</div>
+			</div>
+		</div>
+		<div class="panel-body">
+			<div id="tags_question_221886" class="answer-tag-list">
+				<p><em>No tags are associated with this question.</em></p>
+
+				</div>
+			</div>    
+    </div>
+	</div>    
+
+	<div class="col-xs-12 col-md-6">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>
+						Products
+					</h2>
+				</div>
+				<div class="col-sm-6">
+				</div>
+			 </div>
+		</div>
+		<div class="panel-body">             
+			<div id="products_question_221886" class="product-list">
+				<p><em>No products are associated with this question.</em></p>
+
+			</div>
+		</div>    
+	</div>
+</div>    
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+	<h2 class="add_font_color_emphasize" id="answer_count_question_221886"><span class="icon-answers"></span> 1 Answer</h2>
+</div>    
+
+<div class="panel-body">
+	<div class="row small">
+		<div class="col-xs-12 col-sm-12 col-md-2">
+			<div class="col-xs-4 col-sm-4 col-md-12">
+				<a href="http://www.mathworks.com/matlabcentral/profile/authors/4810869-jesus-royeth" class="author_inline" data-cp-link-id="10"><img alt="JESUS ROYETH" class="avatar-img" src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default.gif"></a>
+<div class="profile mlc_author_popover" data-cp-popup-id="10" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/4810869-jesus-royeth">JESUS ROYETH <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/4810869-jesus-royeth">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A139638"><span property="question_count">0 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A139638"><span property="answer_count">1 answer</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">0 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 0</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 tools-no-paddings">
+				<ul class="list-unstyled" id="tools_answer_181232">
+				<div id="votes_answer_181232" class="vote">
+  <form accept-charset="UTF-8" action="http://www.mathworks.com/matlabcentral/answers/votes" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="svrFBjdGYU3NvroIPv8hUBFltBHNe5UduHJUU4b49jU="></div>
+    <input name="vote[votable_type]" type="hidden" value="Answer"><input name="vote[votable_id]" type="hidden" value="181232">
+    <button class="login btn btn-link" data-disable-with="Saving…" disabled="disabled" title="Log in to vote for questions and answers" type="submit">0 votes</button>
+</form></div>
+
+
+
+
+
+<div class="answer-link col-xs-3 col-sm-3 col-md-12">
+	<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#answer_181232" data-toggle="#permalink_answer_181232" rel="nofollow" title="Direct link to this answer"><span class="icon-link"></span>&nbsp;Link</a>
+</div>
+<div data-dialog="compact" class="permalink-dialog hidden small" id="permalink_answer_181232">
+  <p><strong>Direct link to this answer:</strong></p>
+  <p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#answer_181232">http://www.mathworks.com/matlabcentral/answers/221886#answer_181232</a></p>
+</div>
+
+				</ul>
+			</div>
+		</div>    
+		<div class="col-xs-12 col-md-10 col-sm-10">
+
+		<div class="answer" id="answer_181232">
+			<div id="created_answer_181232" class="contribution">
+  Answer by <a href="http://www.mathworks.com/matlabcentral/profile/authors/4810869-jesus-royeth" class="author_inline" data-cp-link-id="11">JESUS ROYETH</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="11" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/4810869-jesus-royeth">JESUS ROYETH <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/4810869-jesus-royeth">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A139638"><span property="question_count">0 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A139638"><span property="answer_count">1 answer</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">0 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 0</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="answered-date">on 1 Jun 2015</span>
+</div>
+
+
+
+
+			
+
+			<div id="body_answer_181232" class="panel panel-default">
+	<div class="panel-body">
+		<pre class="language-matlab">str={'hi' 'me' 'if' {'yes' 'no' 'hi'} {'for' 'while' 'all'} 'hi'}; %example
+element='hi'; %remove 'hi'
+str(strcmp(str,element))='';
+for i=1:length(str)
+    if iscell(str{i})
+        str{i}(strcmp(str{i},element))='';
+    end
+end
+disp(str)
+</pre>
+	</div>    
+</div>
+
+
+
+			
+
+			<div class="panel panel-default panel_icon_16 comments" id="comments_answer_181232" data-state="closed">
+	<div class="panel-body">
+		<h4><span class="icon-feedback icon_16"></span>&nbsp;&nbsp;5 Comments</h4>
+
+
+		<div class="toggle-comments"><span>Show</span> <a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#toggle-comments" class="hidden-comments-count">2 older comments</a></div>
+			<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12 hidden" id="comment_289575">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem" class="author_inline" data-cp-link-id="12">Muhammad Usman  Saleem</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="12" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem">Muhammad Usman  Saleem <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/6394611.jpg">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A137727"><span property="question_count">31 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A137727"><span property="answer_count">19 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">2 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 7</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 2 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_289575" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_289575" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_289575">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_289575">http://www.mathworks.com/matlabcentral/answers/221886#comment_289575</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_289575" class="panel panel-default">
+		<div class="panel-body">
+			<p>@Jesus i am using that code:</p><pre class="language-matlab">function  mystr=censor(vec,str)
+for i=1:length(vec)
+    if vec(i)==str
+        vec(i)=str;
+    else
+        mystr=vec;
+    end
+end
+end
+</pre><p>but getting that error</p><pre>    Feedback: Your program made an error for argument(s)  { 'Oh, say can you see by the dawn''s early light', 'What so proudly we hailed at the twilight''s last gleaming?', 'Whose broad stripes and bright stars thru the perilous fight,', 'O''er the ramparts we watched were so gallantly streaming?', 'And the rocket''s red glare, the bombs bursting in air,', 'Gave proof through the night that our flag was still there.', 'Oh, say does that star-spangled banner yet wave', 'O''er the land of the free and the home of the brave?' }, 'the'</pre><pre>      Your solution is _not_ correct.</pre><p>Where i need corrections? thanks in advance</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+			<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12 hidden" id="comment_289757">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo" class="author_inline" data-cp-link-id="13">Darshan Kanungo</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="13" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo">Darshan Kanungo <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/6453515-darshan-kanungo">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A139496"><span property="question_count">6 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A139496"><span property="answer_count">0 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">0 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 0</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 3 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_289757" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_289757" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_289757">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_289757">http://www.mathworks.com/matlabcentral/answers/221886#comment_289757</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_289757" class="panel panel-default">
+		<div class="panel-body">
+			<p>this is correct if input argument is cell...</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+
+		<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12" id="comment_289952">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem" class="author_inline" data-cp-link-id="14">Muhammad Usman  Saleem</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="14" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem">Muhammad Usman  Saleem <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/6394611.jpg">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A137727"><span property="question_count">31 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A137727"><span property="answer_count">19 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">2 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 7</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 4 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_289952" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_289952" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_289952">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_289952">http://www.mathworks.com/matlabcentral/answers/221886#comment_289952</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_289952" class="panel panel-default">
+		<div class="panel-body">
+			<p>@Darshan Thanks for contributions.. What is meant by "cell vector"
+Are you talking about? gives some hint in the form of code..</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+		<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12" id="comment_289961">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem" class="author_inline" data-cp-link-id="15">Muhammad Usman  Saleem</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="15" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem">Muhammad Usman  Saleem <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/6394611-muhammad-usman-saleem">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/6394611.jpg">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A137727"><span property="question_count">31 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A137727"><span property="answer_count">19 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">2 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 7</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 4 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_289961" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_289961" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_289961">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_289961">http://www.mathworks.com/matlabcentral/answers/221886#comment_289961</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_289961" class="panel panel-default">
+		<div class="panel-body">
+			<pre class="language-matlab">function mystr=censor(str,substr)
+str={str}; 
+element=substr; 
+str(strcmp(str,element))='';
+for i=1:length(str)
+    if iscell(str{i})
+        str{i}(strcmp(str{i},element))='';
+    end
+end
+</pre><p>I have used that error is same?</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+		<div class="row">
+
+	<div class="comment col-xs-12 col-sm-12" id="comment_289964">
+	
+		<div class="col-xs-12 col-sm-4">
+  <a href="http://www.mathworks.com/matlabcentral/profile/authors/2950957-guillaume" class="author_inline" data-cp-link-id="16">Guillaume</a>
+<div class="profile mlc_author_popover" data-cp-popup-id="16" vocab="http://schema.org/" typeof="Person">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="profile__name" property="name"><a href="http://www.mathworks.com/matlabcentral/profile/authors/2950957-guillaume">Guillaume <span>(view profile)</span></a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="profile__image">
+        <a href="http://www.mathworks.com/matlabcentral/profile/authors/2950957-guillaume">
+            <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/profilepic_default(1).gif">
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-8   profile__stats" typeof="CreativeWork">
+      
+  <ul class="contributor-page-popup">
+    <li property="question">
+      <span class="icon-contactus" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=asked_by_id%3A53027"><span property="question_count">0 questions</span> </a>
+    </li>
+    <li property="answer">
+      <span class="icon-answers" aria-hidden="true"></span>
+      <a href="http://www.mathworks.com/matlabcentral/answers/?term=answered_by_id%3A53027"><span property="answer_count">1,473 answers</span> </a>
+    </li>
+    <li property="answers_accepted">
+      <span class="icon-check" aria-hidden="true"></span>
+      <span property="answers_accepted_count">770 accepted answers</span> 
+    </li>
+    <li property="answers_reputation">
+      <span class="icon-rating" aria-hidden="true"></span>
+      <span property="answers_accepted_count">Reputation: 4,410</span> 
+    </li>
+  </ul>
+
+    </div>
+
+  </div>
+</div> <span class="comment-date">on 4 Jun 2015</span>
+</div>
+
+	
+		<div class="col-xs-12 col-sm-8 pull-right comment-tools">
+	<div class="row">
+		<a href="http://www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg#comment_289964" class="permalink col-xs-3 col-sm-3" data-toggle="#permalink_comment_289964" rel="nofollow" title="Direct link to this comment"><span class="icon-link"></span>&nbsp;Link</a>
+		<div data-dialog="compact" class="permalink-dialog hidden" id="permalink_comment_289964">
+			<p><strong>Direct link to this comment:</strong></p>
+			<p class="link-wrapper"><a href="http://www.mathworks.com/matlabcentral/answers/221886#comment_289964">http://www.mathworks.com/matlabcentral/answers/221886#comment_289964</a></p>
+		</div>
+
+
+
+	</div>
+</div>
+
+		
+
+		<div class="col-xs-12">
+	<div id="body_comment_289964" class="panel panel-default">
+		<div class="panel-body">
+			<p>@Muhammad, You've been told again and again to test your code.</p><p>The error is never the same and would be obvious if you'd run your code in matlab. All the grader is telling you is that you've made an error, matlab would tell you what the error is.</p><p>As said before, just throwing code at the problem is not going to help you. You need to think first about what your code is going to do.</p>
+		</div>
+	</div>
+</div>
+
+
+
+		
+
+</div></div>
+
+	</div>
+</div>
+
+</div>		</div>
+	</div>
+	<hr>
+</div>
+
+
+
+</div>
+</div>
+
+	<div class="col-xs-12 col-sm-3">
+		<div class="panel panel-default panel_color_default panel_color_fill  add_margin_20">
+		 	<div class="panel-body">
+				<div class="random_callout">
+        
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+      <div class="callout_container   solid margined_20  " style="display: none;">
+        <div class="callout_content  bg_center_center">   <img src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/discover-makerzone-logo.png" alt="Discover MakerZone" class="add_margin_20">
+  <p>MATLAB and Simulink resources for Arduino, LEGO, and Raspberry Pi test</p>
+  
+
+
+
+
+
+
+
+ 
+ <a href="http://makerzone.mathworks.com/?utm_source=Acad&utm_medium=spotlight&utm_campaign=MZ" class="cta">Learn more</a> 
+   
+
+ </div>
+      </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+      <div class="callout_container   solid margined_20  " style="display: block;">
+        <div class="callout_content  bg_center_center">   <h3>Discover what MATLAB<sup>®</sup> can do for your career.</h3>
+  <p>Opportunities for recent engineering grads.</p>
+  
+
+
+
+
+
+
+
+ 
+ <a href="http://www.mathworks.com/company/jobs/opportunities/students/infographic.html?source=7677" class="cta">Apply Today</a> 
+   
+
+ </div>
+      </div>
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+      <div class="callout_container   solid margined_20  " style="display: none;">
+        <div class="callout_content  bg_center_center">   <h3>MATLAB Academy</h3>
+  <p>New to MATLAB?</p>
+  
+
+
+
+
+
+
+
+ 
+ <a href="http://matlabacademy.mathworks.com/?s_tid=mlc_mlac_ans_sl" class="cta">Learn MATLAB today!</a> 
+   
+
+ </div>
+      </div>
+
+  
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+
+        </div>
+      </div>
+    </div>
+  </div>
+      
+  
+  <!-- MOBILE CTA - Begin -->
+  <div class="cta_container_mobile visible-sm visible-xs">
+    <div class="container-fluid">      
+      <div class="row add_margin_20">
+        <div class="col-xs-12">
+          <div class="cta_box">
+<ul class="list-inline">
+<li class="cta_item cta_item_general"><a href="http://www.mathworks.com/programs/trials/trial_request.html?eventid=56763&prodcode=ML&s_iid=mlclx_trial_mlc_cta1" class="icon-download">Trial software</a></li>
+</ul>
+</div> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MOBILE CTA - End -->
+
+  <footer id="footer" class="bs-footer"> 
+    <!-- BASIC FOOTER CONTENT - Begin --> 
+    <div class="container"> 
+      <div class="footer">
+<div class="row">
+<div class="col-xs-12 col-md-9">
+<ul class="countrynav" id="countrynav">
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<!-- Code to Remove Tracking from Previous page and add new tracking -->
+<li class="footernav_country">
+<a href="javascript:void(0);" data-html="true" data-container="body" data-toggle="popover" data-placement="top" data-content="&lt;div class=&#39;row&#39;&gt;&lt;div class=&#39;col-xs-12 col-sm-6&#39;&gt;&lt;ul class=&#39;list-unstyled&#39;&gt;&lt;li&gt;&lt;a href=&#39;http://www.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;United States&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://www.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Canada&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://au.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Australia&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://de.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Österreich&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://nl.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Belgium&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://cn.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;中国&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://se.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Denmark&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://se.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Finland&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://fr.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;France&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://de.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Deutschland&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://in.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;India&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://uk.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Ireland&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://it.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Italia&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&#39;col-xs-12 col-sm-6&#39;&gt;&lt;ul class=&#39;list-unstyled&#39;&gt;&lt;li&gt;&lt;a href=&#39;http://jp.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;日本&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://kr.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;한국&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://nl.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Luxembourg&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://nl.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Netherlands&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://au.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;New Zealand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://se.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Norway&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://www.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Portugal&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://es.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;España&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://se.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Sweden&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://ch.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;Schweiz / Suisse&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://uk.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=%2Fmatlabcentral%2Fanswers%2F221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39; rel=&quot;nofollow&quot;&gt;United Kingdom&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#39;http://www.mathworks.com/includes_content/domainRedirect/country_select_alt.html?action=changeCountry&amp;uri=/company/worldwide/&amp;domain=www.mathworks.com&amp;s_tid=gn_loc_drop&#39;&gt;All Other Countries&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/ul&gt;" data-original-title="" title="">
+<span class="icon-arrow-up"></span><span class="icon-globe"></span>United States
+</a>
+<script>
+$('.footernav_country a').popover();
+</script>
+</li>
+</ul>
+<div class="clearfix"></div>
+<ul class="footernav">
+<li class="footernav_patents"><a href="http://www.mathworks.com/company/aboutus/policies_statements/patents.html?s_tid=gf_pat">Patents</a></li>
+<li class="footernav_trademarks"><a href="http://www.mathworks.com/company/aboutus/policies_statements/trademarks.html?s_tid=gf_trd">Trademarks</a></li>
+<li class="footernav_privacy"><a href="http://www.mathworks.com/company/aboutus/policies_statements/?s_tid=gf_priv">Privacy Policy</a></li>
+<li class="footernav_piracy"><a href="http://www.mathworks.com/company/aboutus/policies_statements/piracy.html?s_tid=gf_pir">Preventing Piracy</a></li>
+<li class="footernav_terms"><a href="http://www.mathworks.com/matlabcentral/termsofuse.html">Terms of Use</a></li>
+</ul>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<p class="copyright">© 1994-2015 The MathWorks, Inc.</p>
+</div>
+<div class="clearfix visible-sm add_margin_10"></div>
+<div class="col-xs-12 col-md-3">
+<div class="social_media">
+<ul class="social_media_icons">
+<li>
+<a href="http://www.mathworks.com/programs/bounce_hub_generic.html?s_tid=mlc_fbk&url=http://www.facebook.com/MATLAB" target="_blank" class="svg_link">
+<object data="http://www.mathworks.com/images/responsive/global/ico-facebook.svg" alt="Facebook" class="ico_facebook" type="image/svg+xml">
+<span class="ico_facebook ico_sm"></span>
+</object>
+</a>
+</li>
+<li>
+<a href="http://www.mathworks.com/programs/bounce_hub_generic.html?s_tid=mlc_twt&url=http://www.twitter.com/MATLAB" target="_blank" class="svg_link">
+<object data="http://www.mathworks.com/images/responsive/global/ico-twitter.svg" alt="Twitter" class="ico_twitter" type="image/svg+xml">
+<span class="ico_twitter ico_sm"></span>
+</object>
+</a>
+</li>
+<li>
+<a href="http://www.mathworks.com/programs/bounce_hub_generic.html?s_tid=mlc_glg&url=https://plus.google.com/117177960465154322866?prsrc=3" target="_blank" class="svg_link">
+<object data="http://www.mathworks.com/images/responsive/global/ico-google-plus.svg" alt="Google+" class="ico_google" type="image/svg+xml">
+<span class="ico_google ico_sm"></span>
+</object>
+</a>
+</li>
+<li>
+<a href="http://www.mathworks.com/programs/bounce_hub_generic.html?s_tid=mlc_lkd&url=http://www.linkedin.com/company/the-mathworks_2" target="_blank" class="svg_link">
+<object data="http://www.mathworks.com/images/responsive/global/ico-linkedin.svg" alt="LinkedIn" class="ico_linkedin" type="image/svg+xml">
+<span class="ico_linkedin ico_sm"></span>
+</object>
+</a>
+</li>
+<li>
+<a href="http://www.mathworks.com/company/rss/index.html" class="svg_link">
+<object data="http://www.mathworks.com/images/responsive/global/ico-rss.svg" alt="RSS" class="ico_rss" type="image/svg+xml">
+<span class="ico_rss ico_sm"></span>
+</object>
+</a>
+</li>
+</ul>
+<div class="clearfix"></div>
+<p><em>Join the conversation</em></p>
+</div>
+</div>
+</div>
+</div>
+<!-- Quantcast Tag -->
+<script>
+(function(){
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/aquant.js?a=p-zfNtLVVEHXE-1";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem,scpt);
+}());
+var smarttagdata={qacct: 'p-zfNtLVVEHXE-1',
+orderid: '',
+revenue: '',
+};
+</script>
+<noscript>
+&lt;img src="//pixel.quantserve.com/pixel/p-zfNtLVVEHXE-1.gif?labels=_fp.event.Default;" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/&gt;
+</noscript>
+<!-- End Quantcast tag -->
+<!-- BEGIN Google Code for UK and .COM Domains-->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1023777138;
+var google_conversion_label = "SVIBCMq3xwIQ8rKW6AM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/conversion.js">
+</script><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/saved_resource.html" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no">&lt;img height="1" width="1" border="0" alt="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1023777138/?frame=0&amp;random=1448017417167&amp;cv=8&amp;fst=1448017417167&amp;num=1&amp;fmt=1&amp;label=SVIBCMq3xwIQ8rKW6AM&amp;guid=ON&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1032&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=true&amp;u_nplug=5&amp;u_nmime=7&amp;frm=0&amp;url=http%3A//www.mathworks.com/matlabcentral/answers/221886-how-to-remove-that-element-from-cell-vector-which-is-identical-to-given-argument-or-contains-the-arg&amp;ref=https%3A//www.google.co.in/&amp;tiba=how%20to%20remove%20that%20element%20from%20cell%20vector%20which%20is%20identical%20to%20given%20argument%20or%20contains%20the%20argument%20as%20a%20substring.%20An...%20" /&gt;</iframe>
+<noscript>
+&lt;div style="display:inline;"&gt;
+&lt;img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1023777138/?value=0&amp;label=SVIBCMq3xwIQ8rKW6AM&amp;guid=ON&amp;script=0"/&gt;
+&lt;/div&gt;
+</noscript>
+<!-- END Google Code for UK and .COM Domains-->
+<!-- BEGIN Adobe DTM -->
+<script type="text/javascript">
+try {
+_satellite.pageBottom();
+} catch (e) {
+//something went wrong
+}
+</script>
+<!-- END Adobe DTM -->
+<!-- BEGIN Qualaroo -->
+<script type="text/javascript">
+var _kiq = _kiq || [];
+(function(){
+setTimeout(function(){
+var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+s.async = true; s.src = '//s3.amazonaws.com/ki.js/49559/ahy.js'; f.parentNode.insertBefore(s, f);
+}, 1);
+})();
+</script>
+<!-- END Qualaroo -->
+    </div>
+    <!-- BASIC FAT FOOTER CONTENT - End -->
+  </footer>
+
+    <script src="./how to remove that element from cell vector which is identical to given argument or contains the argument as a substring. An... - MATLAB Answers - MATLAB Central_files/lightbox-min.js"></script> 
+    <script>
+      $(document).ready(function ($) {
+
+        // delegate calls to data-toggle="lightbox"
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+          event.preventDefault();
+          return $(this).ekkoLightbox({
+            onShown: function() {
+				if ($('.ekko-lightbox-container iframe').length) {
+				  $(".ekko-lightbox-container iframe").attr("scrolling","no");
+				  $(".ekko-lightbox-container iframe").load(lightboxIframeHeight);
+				}
+            },
+            onNavigate: function(direction, itemIndex) {
+              if (window.console) {
+                return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+              }
+            }
+          });
+        });
+		
+		// resize
+		$(window).resize(lightboxIframeHeight)	
+
+		// lightbox height function
+		function lightboxIframeHeight() {
+			if ($('.ekko-lightbox-container iframe').length) {
+				whichIframeHeight = $('.ekko-lightbox-container iframe').contents().find('body').height() + 20;
+				$(".ekko-lightbox-container iframe").css("height",whichIframeHeight);
+			}
+		}
+
+        //Programatically call
+        $('#open-image').click(function (e) {
+          e.preventDefault();
+          $(this).ekkoLightbox();
+        });
+        $('#open-youtube').click(function (e) {
+          e.preventDefault();
+          $(this).ekkoLightbox();
+        });
+      });
+    </script> 
+
+
+
+<a class="btn btn_primary" id="go-top"><span class="icon-arrow-open-up icon_24"></span></a></body></html>
