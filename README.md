@@ -1,6 +1,6 @@
 # Coursera - Introduction to Programming with MATLAB Course Solutions
 
-Here you can find the weekly examples, problem statements and their solutions for the course <u>_Introduction to Programming with MATLAB_<u/> created by Vanderbilt University and hosted by [Coursera](https://www.coursera.org/)<br/>
+Here you can find the weekly examples, problem statements and their solutions for the course _Introduction to Programming with MATLAB_ created by Vanderbilt University and hosted by [Coursera](https://www.coursera.org/)<br/>
 You can join the course by using the [link](https://www.coursera.org/learn/matlab)<br/>
 
 **Week 1** - Introductory Session<br/>
